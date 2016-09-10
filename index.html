@@ -23,7 +23,7 @@ layout: default
       <li><a href="#html-javascript">JavaScript العلامات المولدة</a></li>
     </ul>
   </div>
-  <div class="col">
+  <div class="col" style="direction:rtl;text-align:right;">
     <h4><a href="#css">CSS</a></h4>
     <ul>
       <li><a href="#css-syntax">CSS بناء الجملة</a></li>
@@ -47,9 +47,9 @@ layout: default
 <div class="section" id="golden-rule">
   <div class="col">
     <h2>القاعدة الذهبية</h2>
-    <p>Enforce these, or your own, agreed upon guidelines at all times. Small or large, call out what's incorrect. For additions or contributions to this Code Guide, please <a href="https://github.com/mdo/code-guide/issues/new">فتح القضية على GitHub</a>.</p>
+    <p>فرض هذه، أو الخاصة بك، وافق على المبادئ التوجيهية في جميع الأوقات. صغيرة أو كبيرة، ينادي ما هو غير صحيحة. لإضافات أو المساهمات في هذا الدليل المدونة، يرجى <a href="https://github.com/mdo/code-guide/issues/new">فتح القضية على GitHub</a>.</p>
   </div>
-  <div class="col">
+  <div class="col" style="direction:rtl;text-align:right;">
     <blockquote>
       <p>يجب أن يظهر كل سطر من التعليمات البرمجية لتكون مكتوبة من قبل شخص واحد، لا يهم عدد المساهمين.</p>
     </blockquote>
@@ -67,10 +67,10 @@ layout: default
     <h3>بناء الجملة</h3>
     <ul>
       <li>استخدام علامات التبويب لينة مع اثنين من المساحة انها السبيل الوحيد لضمان كود يعمل في أي بيئة.</li>
-      <li>Nested elements should be indented once (two spaces).</li>
-      <li>Always use double quotes, never single quotes, on attributes.</li>
-      <li>Don't include a trailing slash in self-closing elements—the <a href="http://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 spec</a> says they're optional.</li>
-      <li>Don’t omit optional closing tags (e.g. <code>&lt;/li&gt;</code> or <code>&lt;/body&gt;</code>).</li>
+      <li>يجب أن تكون بادئة العناصر المتداخلة مرة واحدة (مسافتين).</li>
+      <li>دائما استخدام علامات الاقتباس المزدوجة، أبدا علامات الاقتباس المفردة، على الصفات.</li>
+      <li>لا تشمل خط مائل زائدة في ذاتية الإغلاق عناصر من <a href="http://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">المواصفات HTML5</a> تقول انهم اختياري.</li>
+      <li>لا تغفل إغلاق علامات اختيارية (على سبيل المثال <code>&lt;/li&gt;</code> أو <code>&lt;/body&gt;</code>).</li>
     </ul>
   </div>
   <div class="col">
@@ -81,7 +81,7 @@ layout: default
 <div class="section" id="html-doctype">
   <div class="col">
     <h3>HTML5 doctype</h3>
-    <p>Enforce standards mode and more consistent rendering in every browser possible with this simple doctype at the beginning of every HTML page.</p>
+    <p>فرض وضع المعايير وجعلها أكثر اتساقا في كل متصفح ممكن مع هذا DOCTYPE بسيط في بداية كل صفحة HTML.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/doctype.html %}{% endhighlight %}
@@ -91,12 +91,12 @@ layout: default
 <div class="section" id="html-lang">
   <div class="col">
     <h3>Language attribute</h3>
-    <p>From the HTML5 spec:</p>
+    <p>Fمن المواصفات HTML5:</p>
     <blockquote>
-      <p>Authors are encouraged to specify a lang attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth.</p>
+      <p>ويتم تشجيع الكتاب لتحديد سمة لانج على عنصر أتش تي أم أل الجذر، مما لغة الوثيقة. وهذا يساعد أدوات تركيب الكلام لتحديد ما هي الكلمات المنطوقة للاستخدام، أدوات الترجمة لتحديد ما هي القواعد للاستخدام، وهكذا دواليك.</p>
     </blockquote>
-    <p>Read more about the <code>lang</code> attribute <a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">in the spec</a>.</p>
-    <p>Head to Sitepoint for a <a href="http://reference.sitepoint.com/html/lang-codes">list of language codes</a>.</p>
+    <p>قراءة المزيد عن <code>lang</code> السمة <a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">في المواصفات</a>.</p>
+    <p>التوجه الى Sitepoint ل <a href="http://reference.sitepoint.com/html/lang-codes">قائمة رموز لغة</a>.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/lang.html %}{% endhighlight %}
@@ -105,9 +105,9 @@ layout: default
 
 <div class="section" id="html-ie-compatibility-mode">
   <div class="col">
-    <h3>IE compatibility mode</h3>
-    <p>Internet Explorer supports the use of a document compatibility <code>&lt;meta&gt;</code> tag to specify what version of IE the page should be rendered as. Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with <strong>edge mode</strong>.</p>
-    <p>For more information, <a href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e">read this awesome Stack Overflow article</a>.</p>
+    <h3>وضع التوافق IE</h3>
+    <p>الإنترنت إكسبلورر يدعم استخدام وثيقة التوافق <code>&lt;meta&gt;</code> العلامة لتحديد ما هو إصدار IE الصفحة يجب أن يصدر في. إلا إذا تطلبت الظروف غير ذلك، هو الأكثر فائدة لإرشاد IE إلى استخدام أحدث طريقة معتمدة مع<strong>وضع حافة</strong>.</p>
+    <p>لمزيد من المعلومات، <a href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e">قراءة هذا المقال Stack Overflow </a>.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/ie-compatibility-mode.html %}{% endhighlight %}
