@@ -266,7 +266,7 @@ pre code {
 .quick-links li {
   display: inline;
 }
-.section:nth-child(2) {
+.section .col:nth-child(2) {
   text-align: left !important;
 }
 
