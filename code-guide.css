@@ -267,7 +267,8 @@ pre code {
   display: inline;
 }
 .section .col:nth-child(2) {
-  text-align: left !important;
+  text-align: left;
+  direction: ltr;
 }
 
 /*
