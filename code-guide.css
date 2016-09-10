@@ -266,7 +266,9 @@ pre code {
 .quick-links li {
   display: inline;
 }
-
+.section:nth-child(2) {
+  text-align: left !important;
+}
 
 /*
  * Syntax highlighting
