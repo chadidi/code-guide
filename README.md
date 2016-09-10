@@ -1,22 +1,22 @@
-# Code Guide
+# دليل التعليمات البرمجية
 
 Code Guide هو مشروع لتوثيق معايير لتطوير مرونة مستدامة والمغلق. انها تأتي من سنوات من الخبرة في كتابة التعليمات البرمجية على المشاريع من جميع الأحجام. انها ليست نهاية كل شيء ، ولكن بداية.
 
-**[Start reading ☞](http://mdo.github.io/code-guide)**
+**[إبدء القراءة ☞](http://bit.ly/Code-Guide)**
 
 ---
 
-### License
+### رخصة
 
-Released under MIT by, and copyright 2014, @mdo.
+صدرت تحت MIT بواسطة  @mdo, وحقوق التأليف والنشر عام 2014 .
 
-### Thanks
+### شكرا
 
 مستوحى بشكل كبير من قبل [Idiomatic CSS](https://github.com/necolas/idiomatic-css) و [GitHub Styleguide](http://github.com/styleguide).
 
-### Translations
+### الترجمات
 
-Translations are maintained by their creators and may not always be up to date with the original here.
+الترجمات يتم الاحتفاظ من قبل المبدعين وربما لا تكون دائما حتى الآن مع الأصل هنا.
 
 - [الصينية](http://zoomzhao.github.io/code-guide/) - تمت الترجمة بواسطة [Zoom Zhao](https://github.com/ZoomZhao)
 - [الصينية](http://codeguide.bootcss.com/) - تمت الترجمة بواسطة [Wang Sai](https://github.com/wangsai)
